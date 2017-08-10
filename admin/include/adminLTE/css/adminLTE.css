@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    padding: 0;
+    background:#ffffff;
+    display: table;
+    width: 100%
+    /*overflow-x: scroll !important;*/
+    /*overflow-y: scroll !important;*/
+}
+
+.control-sidebar{
+    position: fixed !important;
+}
+
+.nav-tabs-custom{
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
+}
+
+.nav-tabs-custom > .nav-tabs{
+    background-color: rgba(0,0,0,0.02);
+}
+.newItemSup{background-color: #FF0000; color: #FFFFFF; font-size:7px; font-weight:bold; margin: 0px; padding:1px;}
+
+.sortableUl li{
+    list-style: none;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    cursor: pointer;
+}
+.sortableUl li div{
+    list-style: none;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100px;
+    height: 114px;
+}
+.sortableUl li img{
+    margin: 0px 5px;
+}
+#tabsColors .ui-state-highlight {
+    width: 100px;
+    height: 100px;
+    display: table-cell;
+    margin: 0px 5px;
+}
+#tabsColors .ui-state-default img{
+    float: left;
+    display: block;
+}
+.EditTable .ui-state-default{
+    border: 1px solid #FF6B7F ;
+    background: #DB4865 url(/sys/js/jqueryUi/css/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png) 50% 50% repeat ;
+    color: white ;
+    font-weight: normal;
+}
+.EditTable .ui-state-active{
+    border: 1px solid #ACDD4A;
+    background: #6EAC2C url(/sys/js/jqueryUi/css/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: white;
+}
+
+.PanelSimpleL{
+    margin: 20px 0px 0px 0px;
+}
+.PanelSimpleL td{
+    vertical-align: top;
+    word-wrap: break-word;
+    padding: 5px;
+}
+
+.help{
+    color: #777;
+    font-size: 85%;
+}
+
+fieldset{
+    margin-top: 1em;
+    border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    padding: 5px;
+    border: #AAA solid 1px;
+    background: #FBF9F9;
+    text-shadow: 0 1px 0 white;
+    -moz-box-shadow: 1px 1px 2px #fff inset;
+    -webkit-box-shadow: 1px 1px 2px #fff inset;
+    box-shadow: 1px 1px 2px #fff inset;
+}
+fieldset legend{
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #444;
+    padding: 5px 10px;
+    margin-bottom: 0px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #AAA;
+    background-color: white;
+    -moz-box-shadow: 3px 3px 15px #bbb;
+    -webkit-box-shadow: 3px 3px 15px #bbb;
+    box-shadow: 3px 3px 15px #bbb;
+}
+
+
+#upload_progress {
+    margin: 0 0 10px 10px;
+}
+#upload_progress div {
+    background: transparent url("../../../images/loader.gif") center center no-repeat;
+    font-size: 0;
+    height: 8px;
+    width: 220px;
+    position: relative;
+}
+#upload_error {
+    margin: 0 0 10px 10px;
+    color: red;
+}
+.mainUpload{
+    background: #F0F0F0;
+}
+.mainUpload td,.itemUpload{
+    margin: 1px;
+    font-size: 11px;
+}
+.imageLoad{
+    text-align: center;
+    vertical-align: middle;
+}
+.itemUpload td{
+    margin: 1px;
+    word-break: break-all;
+    position: relative;
+}
+.add{margin:3px 3px 0;}
+.add th{
+    font-weight: bold;
+    text-align: center;
+}
+.myDragClass,.myDragClass td{
+    background: #d7e6ec;
+}
+.header{
+    padding: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.path{
+    vertical-align: middle;
+    width: 160px;
+}
+.item-image{
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border: 1px solid #AAA;
+    -moz-box-shadow: 3px 3px 15px #bbb;
+    -webkit-box-shadow: 3px 3px 15px #bbb;
+    box-shadow: 3px 3px 15px #bbb;
+    text-align: center;
+}
+.heads{
+    width: 70px;
+}
+.lang{
+    width: 150px;
+}
+.del,.see{
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+.addButfon{
+    padding: 10px 0;
+    overflow: hidden;
+}
+.addBut{
+    padding: 0 10px 0 0;
+    float: left;
+}
+.pathSmall{
+    font-size:10px;
+}
+.filepath{
+    word-break: break-all;
+}
+.remove-img{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+}
+
+.THead {
+    font-size: 11px;
+    text-align:center;
+    color:#111111;
+    margin: 0;
+    vertical-align: middle;
+    height: 34px;
+    padding:0 4px;
+    background:#f2f2f2;
+    border-top: #bfbfbf solid 1px;
+    border-bottom: #bfbfbf solid 1px;
+    border-left: 1px solid #BFBFBF;
+    border-right: 1px solid #BFBFBF;
+}
+.THead.small{font-size: 9px;}
+a.aTHead{
+    font: 11px;
+    color: #111111;
+    border-bottom: 1px #111111 dotted;
+    text-decoration: none;
+}
+a.aTHead:hover {
+    border-bottom: none;
+    text-decoration: none;
+    color: #111111;
+}
+.levels_tree{
+    vertical-align: top;
+}
+
+.my-group .form-control{
+    width:50%;
+}
+
+/*==========================Relat Prop Styles==================================*/
+.SingleRelatPropBox{
+    background-color: #fff;
+    width: 120px;
+    height: 160px;
+    float: left;
+    padding: 5px;
+    margin-right: 10px;
+    text-align: center;
+    list-style: none;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 #aaa;
+    background-color: #F4F4F4;
+    background-image: linear-gradient(top,#fff,#f4f4f4);
+    border: 1px solid #DDD;
+    margin: 9px;
+    padding: 4px;
+    position: relative;
+    vertical-align: top;
+    border-image: initial;
+    cursor: pointer;
+}
+.SingleRelatPropBox:hover{
+    box-shadow: 0 0 4px #999;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    border: 1px solid #BBB
+}
+.SingleRelatPropBox span{
+    width: 120px;
+    height: 14px;
+    display: block;
+    overflow: hidden;
+}
+.addNewProp{
+    background-color: white;
+    border: 1px dashed #CCC;
+    cursor: pointer !important;
+    margin: 9px 9px 0 9px;
+    padding: 4px;
+    border-image: initial;
+    width: 120px;
+    height: 143px;
+    background-image: linear-gradient(top,#fff,#f4f4f4);
+}
+.addPropPlus{
+    background: url(/admin/images/design/addPropPlus.gif) no-repeat scroll center center transparent;
+    width: 120px !important;
+    height: 100px;
+}
+.ZP{
+    width: 120px !important;
+    color: #888;
+    font-size: 13px;
+    height: 33px !important;
+    overflow: hidden;
+    text-decoration: inherit;
+    width: 100%;
+    text-align: center;
+}
+.imageBox120x114{
+    width: 120px !important;
+    height: 114px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.relatPropCheck{
+    position: absolute;
+    margin-left: -3px;
+    margin-top: -3px;
+}
+.relatPropCatalogBox,.relatPropCatalog,.relatPropCatalogMenu,.ZP,.addPropPlus,.addNewProp,.SingleRelatPropBox{
+    float: left;
+}
+.relatPropCatalogBox{
+    width: 1000px;
+    border-top: 1px solid #555;
+}
+.relatPropCatalog{
+    width: 769px;
+    margin-left: 10px;
+}
+.relatPropCatalogMenu{
+    width: 220px;
+    border-right: 1px solid #555;
+    margin-top: 20px;
+}
+.propSelected {
+    box-shadow: 0 0 3px #497fb8;
+    background-color: #63ABF7;
+    background-image: -webkit-linear-gradient(top,#63abf7,#5e99cd);
+    background-image: -moz-linear-gradient(top,#63abf7,#5e99cd);
+    background-image: -ms-linear-gradient(top,#63abf7,#5e99cd);
+    background-image: -o-linear-gradient(top,#63abf7,#5e99cd);
+    background-image: linear-gradient(top,#63abf7,#5e99cd);
+    border: 1px solid #779;
+    color: white;
+    border-image: initial;
+}
+.propSelected:hover {
+    box-shadow: 0 0 8px #999;
+    border: 1px solid #557;
+    border-image: initial;
+}
+.addPropBtnBox{
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+}
+/*==========================Relat Prop Styles==================================*/

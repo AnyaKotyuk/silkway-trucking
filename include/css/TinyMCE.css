@@ -1,0 +1,134 @@
+body, td, pre {color:#000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; margin:8px;}
+ 
+body {background:#FFF;}
+body.mceForceColors {background:#FFF; color:#000;}
+
+/* content START */
+.mceContentBody{
+    padding: 0px 0px;
+}
+
+.mceContentBody h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.mceContentBody h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.mceContentBody h3{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.mceContentBody h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.mceContentBody h5{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.mceContentBody h6{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.mceContentBody p{
+    margin-bottom: 15px;
+}
+.mceContentBody ul{
+    list-style: disc;
+    margin: 0 15px 10px 15px;
+}
+.mceContentBody ul ul{
+    margin: 10px 0 10px 25px;
+}
+.mceContentBody ol{
+    list-style: decimal;
+    margin: 0 15px 10px 20px;
+}
+.mceContentBody ol ol{
+    margin: 10px 0 10px 25px;
+}
+.mceContentBody li{
+    margin-bottom: 5px;
+}
+.mceContentBody table{
+    margin-bottom: 15px;
+    width: auto;
+    border: 1px solid grey;
+}
+.mceContentBody th,
+.mceContentBody td{
+    border: 1px solid grey;
+    padding: 4px;
+    text-align: left;
+}
+.mceContentBody th{
+    font-weight: bold;
+    text-align: center;
+}
+
+.mceContentBody a{
+    color: #0073b3;
+    text-decoration: underline;
+}
+.mceContentBody a:hover{
+    text-decoration: underline;
+}
+.mceContentBody a:not.news-content a{
+    color: blue;
+    text-decoration: underline;
+}
+.mceContentBody a:visited:not.news-content a{
+    color: #0000aa;
+}
+.mceContentBody a:hover:not.news-content a{
+    color: blue;
+    text-decoration: none;
+}
+.mceContentBody a:active:not.news-content a{
+    color: red;
+}
+.mceContentBody p img, .mceContentBody td img{
+    border: 0px !important;
+}
+.mceContentBody img[align=left]{
+    margin: 0 10px 10px 0;
+    float: left;
+}
+.mceContentBody img[align=right]{
+    margin: 0 0 10px 10px;
+    float: right;
+}
+.mceContentBody dl{
+    margin: 0 0 15px 0;
+}
+.mceContentBody dt{
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+.mceContentBody dd{
+    margin-bottom: 5px;
+}
+.mceContentBody hr{
+    height: 1px;
+    border: none;
+    color: #aaa;
+    background: #aaa;
+    margin: 10px 0;
+    clear: both;
+}
+.mceContentBody strong,
+.mceContentBody b{
+    font-weight: bold;
+}
+.mceContentBody em,
+.mceContentBody i{
+    font-style: italic;
+}
+.mceContentBody .path{
+    font-size: 10px;
+    color:#5a5a5a;
+    padding-bottom: 15px;
+}
+/* content END */

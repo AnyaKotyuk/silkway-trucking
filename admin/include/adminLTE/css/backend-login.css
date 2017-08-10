@@ -1,0 +1,148 @@
+.row{
+    margin-left: 0;
+    text-align: center;
+    /* vertical-align: inherit; */
+}
+html{
+    /*height: 100%;*/
+}
+body{
+    background-color: #2a3436 !important;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+label{
+    display: block;
+    margin: 10px 0 0 0;
+}
+label,span.required{
+    color: #56a6b0;
+    font-size: 20px;
+}
+input{
+    width: 306px;
+}
+input[type='text'],input[type='password']{
+    background: #a9adae;
+    padding: 3px;
+    text-align: center;
+}
+input[type='text']:focus, input[type='password']:focus{
+    background: white;
+}
+input[type='submit']{
+    width: 318px;
+    margin: 5% 0 0 0;
+    padding: 0 0;
+    color: white;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: url("/admin/include/adminLTE/images/login-page/button-bg.png") repeat-x;
+    border: 3px solid #64c2cc;
+    box-shadow: none;
+    outline: none;
+    border-radius: 5px;
+}
+input[type='submit']:hover{
+    box-shadow: inset 1px 1px darkgray;
+}
+label[for='LoginForm_rememberMe']{
+    display: inline-block;
+}
+input[type='checkbox']{
+    margin: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 23px;
+    height: 20px;
+    z-index: 99999;
+    position: relative;
+    cursor: pointer;
+}
+input[type='checkbox'] + label{
+    padding-left: 35px;
+    background: url('/admin/include/adminLTE/images/login-page/unchecked.png') transparent no-repeat;
+    position: relative;
+    left: -21px;
+    height: 24px;
+    /* vertical-align: bottom; */
+    padding-top: 4px;
+}
+input[type='checkbox']:checked + label{
+    background: url('/admin/include/adminLTE/images/login-page/checked.png') transparent no-repeat;
+}
+
+.loginbox{
+    position: relative;
+    min-width: 600px;
+    max-width: 786px;
+    width: 60%;
+    /* height: 846px; */
+    margin: 0 auto;
+    margin-top: 6px;
+    position: relative;
+}
+.loginbox .logo{
+    opacity: 0.5;
+}
+.loginbox:hover .bg{
+    opacity: 0.5;
+    -webkit-transition:opacity 0.1s ease-in;
+    -moz-transition: opacity 0.1s ease-in;
+    -ms-transition: opacity 0.1s ease-in;
+    -o-transition: opacity 0.1s ease-in;
+    transition: opacity 0.1s ease-in;
+}
+
+.logo-container{
+    margin-top: 33%;
+    /* width: 55%; */
+    text-align: center;
+}
+.bg{
+    background: url("/admin/include/adminLTE/images/login-page/nlo-bg.png") no-repeat transparent;
+    background-size: contain;
+    width: 100%;
+    background-position-x: 50%;
+    height: 100%;
+    /* margin: 0 auto; */
+    /* margin-top: 84px; */
+    position: absolute;
+    /* left: 20%; */
+    opacity: 0.4;
+    top: 0;
+    -webkit-transition:opacity 0.1s ease-out;
+    -moz-transition: opacity 0.1s ease-out;
+    -ms-transition: opacity 0.1s ease-out;
+    -o-transition: opacity 0.1s ease-out;
+    transition: opacity 0.1s ease-out;
+    z-index: 200;
+}
+form{
+    padding-top: 42%;
+    position: relative;
+    z-index: 1000;
+}
+
+@media screen and (max-width: 667px) {
+    .loginbox{
+        width: 90%;
+        min-width: 320px;
+        max-width: 600px;
+    }
+    .loginbox .logo{
+        width: 90%;
+    }
+
+    input[type='submit'] {
+        width: 45%;
+    }
+    form{
+        padding-top: 35%;
+    }
+    input{
+        width: 45%;
+    }
+    label,span.required{
+        font-size: 14px;
+    }
+}

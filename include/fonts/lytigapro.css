@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Lytiga Pro';
+    src: local('Lytiga Pro Regular'), local('LytigaPro-Regular'), url('Lytigaproregular.woff2') format('woff2'), url('Lytigaproregular.woff') format('woff'), url('Lytigaproregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lytiga Pro';
+    src: local('Lytiga Pro Italic'), local('LytigaPro-Italic'), url('Lytigaproitalic.woff2') format('woff2'), url('Lytigaproitalic.woff') format('woff'), url('Lytigaproitalic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
